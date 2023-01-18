@@ -2,13 +2,13 @@
 /*1️⃣ EJERCICIO 01 1️⃣*/
 
 // Crea una variable de tipo string.
-const nuevoString = "null";
+const nuevoString = "nada";
 
 // Crea una variable de tipo number.
-const nuevoNumero = 2";
+const nuevoNumero = 2;
 
 // Crea una variable de tipo boolean.
-const nuevoBoolean = null;
+const nuevoBoolean = 2>5;
 
 // Resuelve el siguiente problema matemático.
 const nuevaResta = 10 - null === 3;
