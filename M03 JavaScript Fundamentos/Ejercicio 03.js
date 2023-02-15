@@ -5,13 +5,24 @@ function sonIguales(x, y) {
    // Retorna True si "x" e "y" son iguales.
    // De lo contrario, retorna False.
    // Tu código:
+   if (x === y){
+   return true;
+}else {
+      return false;
+}
+
 }
 
 function tienenMismaLongitud(str1, str2) {
    // Retorna True si los dos strings tienen la misma longitud.
    // De lo contrario, retorna False.
    // Tu código:
+   if (str1.lenght === str2.lenght);
+   return true;
+} { return false;
 }
+
+
 
 function menosQueNoventa(num) {
    // Retorna True si el argumento "num" es menor que noventa.
