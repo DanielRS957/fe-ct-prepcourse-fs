@@ -127,16 +127,17 @@ function operadoresLogicos(num1, num2, num3) {
    // Si alguno de los argumentos es cero, retornar ---> "Error".
    // Si no se cumple ninguna de las condiciones anteriores, retornar false.
    // Tu código:
-   if (num1>num2 && num1>num3 && num1>0){
-        return "Numero 1 es mayor y positivo"}
-      else if (num1<0 || num2<0 || num3<0){
-         return 'Hay negativos'}
-      else if (num3>num1 || num3>num2){
-         return num3+1}
-      else if (num1===0 || num2===0 || num3===0) {
-         return "Error"}
-      else{
-         return false}
+   if (num1 === 0 && num2 === 0 & num3 === 0){
+      return "Error";
+   }else if (num1 < 0 || num2 < 0 || num3 < 0){
+      return "Hay negativos";
+   }else if (num1>num2 && num1>num3){
+      return "Numero 1 es mayor y positivo";
+   }else if (num3>num1 || num3>num2){
+      return num3 + 1;
+   }else{
+       return false;
+}
 }
 
 function esPrimo(num) {
@@ -168,8 +169,9 @@ function tieneTresDigitos(num) {
    // Si el número recibido tiene tres dígitos retornar True.
    // Caso contrario, retornar False.
    // Tu código:
-   if (num.lenght===3) return true;
-   else {
+   if (num>99 && num<1000){
+      return true;
+   }else {
       return false}
 }
 
@@ -178,6 +180,13 @@ function doWhile(num) {
    // Retornar el valor final.
    // Utilizar el bucle Do-While.
    // Tu código:
+   var resultado=0;
+   var contador=8;
+   do {
+      resultado += 5;
+      contador -= 1; }
+   while (contador !== 0);
+   return num+ resultado;
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
