@@ -1,5 +1,5 @@
 /*⚠️ NO MODIFIQUES EL NOMBRE DE LAS DECLARACIONES ⚠️*/
-
+// 1,2,3,4,5,6
 function obtenerMayor(x, y) {
    // "x" e "y" son números enteros.
    // Retornar el número más grande.
