@@ -131,21 +131,38 @@ function diaDeLaSemana(numeroDeDia) {
    // Realiza una función que, dado el número del día de la semana, retorne: "Es fin de semana"
    // si el día corresponde a "Sábado" o "Domingo", y "Es dia laboral" en caso contrario.
    // Tu código:
-   var diaDeLaSemana=0
-for ( i = 0 ; i < numeroDeDia.length ; i++ ){
-   if ( numeroDeDia [i] === 1)}
-}
-
+   if (numeroDeDia===1||numeroDeDia===7){
+      return "Es fin de semana";
+   } else if ( numeroDeDia>1&&numeroDeDia<7){
+      return "Es dia laboral"
+   } else {
+      return "no es un dia de la semana"
+   }
+}   
+//98
 function empiezaConNueve(num) {
    // Esta función recibe por parámetro un número.
    // Debe retornar True si el entero inicia con 9 y False en otro caso.
    // Tu código:
+ var empiezaConNueve= num.toString();
+   if ( empiezaConNueve [0] == 9){
+      return true;
+   }else {
+      return false;
+   }
 }
 
 function todosIguales(array) {
    // Si todos los elementos del arreglo son iguales, retornar True.
    // Caso contrario retornar False.
    // Tu código:
+var todosIguales=0
+   for (i = 0; i< array.length - 1; i++){
+   if (array[i] !== array[i+1]){
+      return false;
+   }
+   }
+   return true;
 }
 
 function mesesDelAño(array) {
@@ -153,6 +170,9 @@ function mesesDelAño(array) {
    // "Marzo" y "Noviembre", guardarlos en un nuevo arreglo y retornarlo.
    // Si alguno de los meses no está, retornar el string: "No se encontraron los meses pedidos".
    // Tu código:
+if (kdfk=0){
+   return 0;
+}
 }
 
 function tablaDelSeis() {
