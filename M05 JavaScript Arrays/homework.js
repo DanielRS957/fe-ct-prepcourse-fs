@@ -111,9 +111,9 @@ function multiplicarArgumentos() {
       multiplicarArgumentos=multiplicarArgumentos*arguments[i]
       }
    }
-      return multiplicarArgumentos;
+        return multiplicarArgumentos;
    }
-// 2;30;24,43
+
 function cuentoElementos(array) {
    // Desarrolla una función que retorne la cantidad de elementos del arreglo cuyo valor sea mayor que 18.
    // Tu código:
@@ -170,21 +170,41 @@ function mesesDelAño(array) {
    // "Marzo" y "Noviembre", guardarlos en un nuevo arreglo y retornarlo.
    // Si alguno de los meses no está, retornar el string: "No se encontraron los meses pedidos".
    // Tu código:
-if (kdfk=0){
-   return 0;
-}
+   var arrayMeses = [];
+   for(var i = 0; i < array.length; i++){
+     if(array[i] === "Enero" || array[i] === "Marzo" || array[i] === "Noviembre"){
+         arrayMeses.push(array[i]);
+     }
+   }
+   if(arrayMeses.length === 3){
+     return arrayMeses;
+   }else if (arrayMeses.length > 3){
+     return "Hay meses repetidos";
+     }
+   return "No se encontraron los meses pedidos"; 
+
 }
 
 function tablaDelSeis() {
    // Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
    // La función devuelve un arreglo con los resultados de la tabla de multiplicar del 6 en orden creciente.
    // Tu código:
+var array = [];
+for ( i = 0 ; i < 11 ; i++ ){
+   array.push(6 * i);
+}return array;
 }
 
 function mayorACien(array) {
    // La función recibe un arreglo con enteros entre 0 y 200.
    // Recorrerlo y retornar un arreglo con todos los valores mayores a 100 (no incluye el 100).
    // Tu código:
+var nuevoarray=[]
+ for ( i = 0 ; i < array.length ; i++ ){
+   if ( array[i] > 100 ){
+   nuevoarray.push(array[i]);
+   }
+ } return nuevoarray;
 }
 
 /* ----------------------------------------------------------------------------------
