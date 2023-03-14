@@ -210,7 +210,8 @@ var nuevoarray=[]
 /* ----------------------------------------------------------------------------------
 💪 EXTRA CREDIT EXTRA CREDIT EXTRA CREDIT EXTRA CREDIT EXTRA CREDIT  EXTRA CREDIT 💪
 -------------------------------------------------------------------------------------*/
-
+//var arreglo 1,2,3,4,5,6,7
+//indice      0 1 2 3 4 5 6
 function breakStatement(num) {
    // Iterar en un bucle aumentando en 2 el número recibido hasta un límite de 10 veces.
    // Guardar cada nuevo valor en un arreglo y retornarlo.
@@ -218,7 +219,21 @@ function breakStatement(num) {
    // la ejecución y retornar el string: "Se interrumpió la ejecución".
    // [PISTA]: utiliza el statement 'break'.
    // Tu código:
-}
+   var arraynumeros = [];
+   var suma =  num;
+   for ( i = 0 ; i < 10 ; i++){
+      suma = suma + 2;
+      if ( suma === i ){
+         break;
+      }else {
+         arraynumeros.push(suma);}
+   }
+   if (arraynumeros.length < 10 ){
+      return "Se interrumpió la ejecución";
+   }else if (arraynumeros.length === 10 ){
+      return arraynumeros;
+   }
+   }
 
 function continueStatement(num) {
    // Iterar en un bucle aumentando en 2 el número recibido hasta un límite de 10 veces.
