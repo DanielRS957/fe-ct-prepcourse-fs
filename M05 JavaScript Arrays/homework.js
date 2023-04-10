@@ -242,8 +242,17 @@ function continueStatement(num) {
    // se continua con la siguiente iteración.
    // [PISTA]: utiliza el statement 'continue'.
    // Tu código:
+   var nuevoarray = [];
+   var suma = num;
+   for (i = 0 ; i < 10 ; i ++){
+            if (i === 5){
+         continue;
+      }else {
+         suma = suma + 2;
+         nuevoarray.push(suma);
+      }
+   }return nuevoarray;
 }
-
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
 module.exports = {
    devolverPrimerElemento,
