@@ -70,6 +70,7 @@ function filter(arrayOfStrings) {
    })
    return arrayDos;
 }
+"terminado ok"
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
 module.exports = {
