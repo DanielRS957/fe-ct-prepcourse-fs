@@ -162,6 +162,8 @@ function agregarMetodoCalculoDescuento(objetoProducto) {
  return objetoProducto;
 }
 
+"terminado ok"
+
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
 module.exports = {
    crearGato,
