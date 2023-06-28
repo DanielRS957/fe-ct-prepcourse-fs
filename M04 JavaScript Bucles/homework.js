@@ -189,6 +189,9 @@ function doWhile(num) {
    return num+ resultado;
 }
 
+
+"terminado"
+
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
 module.exports = {
    obtenerMayor,
