@@ -45,6 +45,10 @@ String.prototype.reverse= function(){
    }
 }
 
+
+"terminado ok"
+
+
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
 module.exports = {
    crearUsuario,
